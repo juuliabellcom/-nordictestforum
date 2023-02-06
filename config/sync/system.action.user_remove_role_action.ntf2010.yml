@@ -1,0 +1,14 @@
+uuid: e769ccdf-765c-4229-b346-90d96a08fa3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf2010
+  module:
+    - user
+id: user_remove_role_action.ntf2010
+label: 'Remove the NTF2010 role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ntf2010

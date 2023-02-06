@@ -1,0 +1,18 @@
+uuid: 07de8393-5214-4a8e-904d-55a3fa9ed003
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Image gallery'
+type: image_gallery
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

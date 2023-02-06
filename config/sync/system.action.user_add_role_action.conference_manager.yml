@@ -1,0 +1,14 @@
+uuid: cbf59a75-1210-48e5-9e9f-c04ee3847132
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.conference_manager
+  module:
+    - user
+id: user_add_role_action.conference_manager
+label: 'Add the conference manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: conference_manager

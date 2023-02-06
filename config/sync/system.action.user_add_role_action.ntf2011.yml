@@ -1,0 +1,14 @@
+uuid: fb9bce37-258d-43c8-b9c5-e39a9ec1a3ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf2011
+  module:
+    - user
+id: user_add_role_action.ntf2011
+label: 'Add the NTF2011 role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ntf2011

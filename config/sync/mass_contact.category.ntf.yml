@@ -1,0 +1,12 @@
+uuid: 294d9d2b-1298-4c43-9fe0-4cc327df5b6a
+langcode: en
+status: true
+dependencies: {  }
+id: ntf
+label: NTF
+recipients:
+  role:
+    categories:
+      - authenticated
+    conjunction: OR
+selected: false

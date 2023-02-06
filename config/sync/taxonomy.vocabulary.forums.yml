@@ -1,0 +1,8 @@
+uuid: a9dbf78d-6274-421e-80d9-60df5a656dd5
+langcode: en
+status: true
+dependencies: {  }
+name: Forums
+vid: forums
+description: ''
+weight: -10

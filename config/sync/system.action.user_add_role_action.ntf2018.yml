@@ -1,0 +1,14 @@
+uuid: 3bfb5642-2ef4-4ade-9a4d-8789fd69d78f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf2018
+  module:
+    - user
+id: user_add_role_action.ntf2018
+label: 'Add the NTF2018 role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ntf2018

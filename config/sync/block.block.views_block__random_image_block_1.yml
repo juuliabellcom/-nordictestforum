@@ -1,0 +1,32 @@
+uuid: a9e747c9-3943-4b47-af69-0f5059a72ff3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.random_image
+  module:
+    - user
+    - views
+  theme:
+    - showcase_lite
+id: views_block__random_image_block_1
+theme: showcase_lite
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:random_image-block_1'
+settings:
+  id: 'views_block:random_image-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

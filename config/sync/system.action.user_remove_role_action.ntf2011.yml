@@ -1,0 +1,14 @@
+uuid: 1301dddd-dcdc-4e78-9016-df861d5fb5bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf2011
+  module:
+    - user
+id: user_remove_role_action.ntf2011
+label: 'Remove the NTF2011 role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ntf2011

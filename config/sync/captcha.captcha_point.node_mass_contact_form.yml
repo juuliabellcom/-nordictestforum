@@ -1,0 +1,7 @@
+uuid: 630132ce-bce4-42de-aa1e-88cc9b45d629
+langcode: en
+status: false
+dependencies: {  }
+formId: node_mass_contact_form
+captchaType: default
+label: node_mass_contact_form

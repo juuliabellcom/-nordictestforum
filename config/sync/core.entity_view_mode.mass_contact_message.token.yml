@@ -1,0 +1,10 @@
+uuid: c04b2b26-44ae-4f78-9bfe-d734d14b1ecf
+langcode: en
+status: true
+dependencies:
+  module:
+    - mass_contact
+id: mass_contact_message.token
+label: Token
+targetEntityType: mass_contact_message
+cache: true

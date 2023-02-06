@@ -1,0 +1,14 @@
+uuid: c188bd45-0fa3-4de6-836f-a7765789a084
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf2021
+  module:
+    - user
+id: user_remove_role_action.ntf2021
+label: 'Remove the NTF2021 role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ntf2021

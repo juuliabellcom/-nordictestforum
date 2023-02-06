@@ -1,0 +1,23 @@
+uuid: b222da5f-28bf-420c-8be3-6ef7c8a2d88f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.image
+  module:
+    - text
+id: node.image.body
+field_name: body
+entity_type: node
+bundle: image
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

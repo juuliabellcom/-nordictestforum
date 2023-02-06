@@ -1,0 +1,27 @@
+uuid: d1f59021-6de1-4227-a767-50bf6b77de32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.upload
+    - node.type.review
+  module:
+    - file
+id: node.review.upload
+field_name: upload
+entity_type: node
+bundle: review
+label: upload
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: 'txt doc xls pdf ppt pps odt ods odp zip rar'
+  max_filesize: 8MB
+  description_field: true
+field_type: file

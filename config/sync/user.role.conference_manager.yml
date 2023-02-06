@@ -1,0 +1,30 @@
+uuid: 81319bc9-9f7c-472a-8c29-b0029d7abfe0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.paper
+    - node.type.review
+  module:
+    - contact
+    - node
+    - search
+    - system
+id: conference_manager
+label: 'conference manager'
+weight: 4
+is_admin: null
+permissions:
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'change own username'
+  - 'create paper content'
+  - 'create review content'
+  - 'delete any paper content'
+  - 'edit any paper content'
+  - 'edit any review content'
+  - 'edit own paper content'
+  - 'edit own review content'
+  - 'search content'
+  - 'use advanced search'
+  - 'view paper revisions'

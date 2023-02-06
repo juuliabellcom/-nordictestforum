@@ -1,0 +1,19 @@
+uuid: dcabeb99-bdf7-4ee6-b079-0f543beee907
+langcode: en
+status: true
+dependencies:
+  module:
+    - text
+    - user
+id: user.profile_address
+field_name: profile_address
+entity_type: user
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

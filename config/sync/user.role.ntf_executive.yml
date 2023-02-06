@@ -1,0 +1,59 @@
+uuid: 846abdf0-e910-45b5-a34d-a69ce1ef54e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.forum
+    - node.type.mass_contact
+    - node.type.page
+    - node.type.paper
+    - node.type.review
+    - node.type.story
+  module:
+    - comment
+    - contact
+    - node
+    - poll
+    - quickedit
+    - search
+    - system
+    - toolbar
+id: ntf_executive
+label: 'NTF executive'
+weight: 6
+is_admin: null
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access content overview'
+  - 'access in-place editing'
+  - 'access polls'
+  - 'access site-wide contact form'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer users'
+  - 'change own username'
+  - 'create forum content'
+  - 'create page content'
+  - 'create paper content'
+  - 'create polls'
+  - 'create review content'
+  - 'create story content'
+  - 'delete any paper content'
+  - 'edit any page content'
+  - 'edit any paper content'
+  - 'edit any review content'
+  - 'edit any story content'
+  - 'edit own forum content'
+  - 'edit own mass_contact content'
+  - 'edit own page content'
+  - 'edit own paper content'
+  - 'edit own polls'
+  - 'edit own review content'
+  - 'edit own story content'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use advanced search'
+  - 'view paper revisions'
+  - 'view the administration theme'

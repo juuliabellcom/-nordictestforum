@@ -1,0 +1,25 @@
+uuid: 4ab1c5b9-2b37-4d01-81ab-fece8a886521
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:nobody:74022f35-07b8-4a6b-9c1c-b7339909b2f8'
+  module:
+    - block_content
+  theme:
+    - showcase_lite
+id: cntffooter
+theme: showcase_lite
+region: sub_footer_first
+weight: 0
+provider: null
+plugin: 'block_content:74022f35-07b8-4a6b-9c1c-b7339909b2f8'
+settings:
+  id: 'block_content:74022f35-07b8-4a6b-9c1c-b7339909b2f8'
+  label: '©[current-date:html_year] Nordic Test Forum'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: a68da545-dcf2-423b-9092-85aff60cc19e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf2023
+  module:
+    - user
+id: user_remove_role_action.ntf2023
+label: 'Remove the NTF2023 role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ntf2023

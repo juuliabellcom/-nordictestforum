@@ -1,0 +1,10 @@
+uuid: 252df3cb-23e5-4f33-817f-ebb2f836a58d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.random_image
+label: random_image
+targetEntityType: node
+cache: true

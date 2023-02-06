@@ -1,0 +1,7 @@
+_core:
+  default_config_hash: U69DBeuvXuNVOC15rVNaBjDPK2fWFbo9v4takdYSSO8
+default_form: ntf_user_inquiry
+flood:
+  limit: 3
+  interval: 3600
+user_default_enabled: true

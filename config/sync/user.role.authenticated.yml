@@ -1,0 +1,39 @@
+uuid: 5bc8b046-503b-4bbf-a8f9-019751a0bc34
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.filtered_html
+    - node.type.page
+    - node.type.paper
+    - node.type.review
+    - node.type.story
+  module:
+    - contact
+    - filter
+    - media
+    - node
+    - search
+    - system
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'cancel account'
+  - 'change own username'
+  - 'create paper content'
+  - 'delete own paper content'
+  - 'edit own page content'
+  - 'edit own paper content'
+  - 'edit own review content'
+  - 'edit own story content'
+  - 'search content'
+  - 'use advanced search'
+  - 'use text format filtered_html'
+  - 'view media'
+  - 'view own unpublished content'

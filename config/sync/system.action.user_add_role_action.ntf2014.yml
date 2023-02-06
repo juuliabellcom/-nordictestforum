@@ -1,0 +1,14 @@
+uuid: db872924-eac5-42d8-97d2-657e4ab260d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf2014
+  module:
+    - user
+id: user_add_role_action.ntf2014
+label: 'Add the NTF2014 role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ntf2014

@@ -1,0 +1,8 @@
+uuid: ac4f1673-ccf6-460c-ab31-43052d7baf81
+langcode: en
+status: true
+dependencies: {  }
+id: nobody
+label: nobody
+revision: 0
+description: 'Block without a body'

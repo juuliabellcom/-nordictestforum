@@ -1,0 +1,12 @@
+uuid: b0587ac0-d20b-495e-b9ef-88c4582674ab
+langcode: en
+status: true
+dependencies: {  }
+id: committee
+label: Committee
+recipients:
+  role:
+    categories:
+      - ntf_executive
+    conjunction: OR
+selected: false

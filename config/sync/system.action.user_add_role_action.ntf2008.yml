@@ -1,0 +1,14 @@
+uuid: ebe6f113-69cb-4527-a4ee-9170d9effcc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf2008
+  module:
+    - user
+id: user_add_role_action.ntf2008
+label: 'Add the NTF2008 role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ntf2008

@@ -1,0 +1,21 @@
+uuid: 7951f462-056a-44d6-b534-5650c759a4e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_fullname
+  module:
+    - text
+    - user
+id: user.user.profile_fullname
+field_name: profile_fullname
+entity_type: user
+bundle: user
+label: 'Full Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

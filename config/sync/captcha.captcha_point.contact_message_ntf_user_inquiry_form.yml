@@ -1,0 +1,7 @@
+uuid: 0176e7bb-5e7e-4e81-b769-3f7e9e8b300e
+langcode: en
+status: true
+dependencies: {  }
+formId: contact_message_ntf_user_inquiry_form
+captchaType: default
+label: contact

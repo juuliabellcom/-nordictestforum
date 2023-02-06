@@ -1,0 +1,35 @@
+uuid: 2513ac46-be3f-4210-aa64-d7ec701e7d16
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+    - user
+  theme:
+    - showcase_lite
+_core:
+  default_config_hash: juhi0hOtSzX1YQ9NQp0kTTUYRKUBrxropPgseJ9XPbI
+id: useraccountmenu
+theme: showcase_lite
+region: header_top_highlighted_second
+weight: -10
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated

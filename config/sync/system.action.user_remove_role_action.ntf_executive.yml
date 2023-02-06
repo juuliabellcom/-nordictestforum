@@ -1,0 +1,14 @@
+uuid: 938138fb-76c2-41f6-b4ba-1736873e12d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf_executive
+  module:
+    - user
+id: user_remove_role_action.ntf_executive
+label: 'Remove the NTF executive role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ntf_executive

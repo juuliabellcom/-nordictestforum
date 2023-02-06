@@ -1,0 +1,22 @@
+uuid: fb7d770a-23a9-4c20-883c-1cf91cff0632
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.review
+id: node.review.sticky
+field_name: sticky
+entity_type: node
+bundle: review
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

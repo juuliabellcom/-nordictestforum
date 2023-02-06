@@ -1,0 +1,347 @@
+uuid: e4b581b8-c25a-4077-ac68-9822cdc63dde
+langcode: en
+status: closed
+dependencies: {  }
+weight: 0
+open: null
+close: null
+uid: 1
+template: false
+archive: false
+id: conf_reg_auth
+title: 'Test Forum 2020 Registration (backup)'
+description: 'It is a backup copy of the registration form'
+category: ''
+elements: |-
+  info:
+    '#type': webform_markup
+    '#markup': |
+      Please fill-in the table below. The mandatory fields are marked with *. The table can be submitted just once. Please contact organizers in case of any mistakes or corrections. Alternatively, you can send your registration details to the Test Forum secretariat by fax or e-mail.<br />
+      <br />
+      <em>Upon registration, the NTF Sectretariat will send you an invoice to be payed. </em><br />
+      <br />
+      <strong>Hotel Room Reservation</strong><br />
+      The room rate for Test Forum 2019 participants is EUR 99 single room per night, including breakfast. Booking of rooms at the conference hotel is not mandatory for participation at the seminar.<br />
+      <br />
+      The dates for Test Forum 2019 are: November 26th - 27th.<br />
+      The Annual General Assembly is November 25th in the evening.
+      
+  full_name:
+    '#type': textfield
+    '#title': 'Full name'
+    '#default_value': '[current-user:profile_fullname:value]'
+    '#required': true
+  email:
+    '#type': email
+    '#title': E-mail
+    '#default_value': '[current-user:mail]'
+    '#required': true
+  company:
+    '#type': textfield
+    '#title': Company
+    '#default_value': '[current-user:profile_company:value]'
+    '#required': true
+  vat_no_:
+    '#type': textfield
+    '#title': 'VAT No.'
+    '#description': 'Add your company&#39;s VAT number to be put on the invoice.'
+  address:
+    '#type': textarea
+    '#title': Address
+    '#required': true
+    '#default_value': '[current-user:profile_address:value]'
+  postal_code:
+    '#type': textfield
+    '#title': 'Postal Code'
+    '#default_value': '[current-user:profile_index:value]'
+    '#required': true
+  city:
+    '#type': textfield
+    '#title': City
+    '#default_value': '[current-user:profile_city:value]'
+    '#required': true
+  country:
+    '#type': textfield
+    '#title': Country
+    '#default_value': '[current-user:profile_country:value]'
+    '#required': true
+  phone:
+    '#type': textfield
+    '#title': Phone
+    '#required': true
+    '#default_value': '[current-user:profile_phone:value]'
+  fax:
+    '#type': textfield
+    '#title': Fax
+    '#default_value': '[current-user:profile_fax:value]'
+  register_as:
+    '#type': radios
+    '#title': 'Register as'
+    '#description': |
+      The conference fee is EUR 450 for NTF members, EUR 250 for students and EUR 525 for others.<br />
+      The fee includes participation, food and refreshments from Tuesday morning to Wednesday afternoon as well as forum proceedings on the USB memory.<br />
+      Exhibitors pay EUR 850, which also includes the participation of a single person.
+      
+    '#options':
+      'NTF member - EUR 450': 'NTF member - EUR 450'
+      'An exhibitor - EUR 850': 'An exhibitor - EUR 850'
+      'Student (with valid ID) - EUR 250': 'Student (with valid ID) - EUR 250'
+    '#required': true
+    '#default_value': 'NTF member - EUR 450'
+  hotel_room:
+    '#type': radios
+    '#title': 'I need a hotel room'
+    '#description': 'The room rate for Test Forum 2019 participants is EUR 99 single room per night, including breakfast. <em>Booking of rooms at the conference hotel is <strong>not</strong> mandatory for participation at the seminar.</em>'
+    '#options':
+      'No': 'No'
+      Single: Single
+      Double: Double
+    '#required': true
+    '#default_value': 'No'
+  stay_duration:
+    '#type': textarea
+    '#title': 'Stay duration'
+    '#default_value': |
+      Arrival: November 25
+      Departure: November 27
+      
+    '#format_items': comma
+  comments:
+    '#type': textarea
+    '#title': 'Any additional comments'
+  captcha:
+    '#type': captcha
+    '#captcha_type': recaptcha/reCAPTCHA
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: ''
+  ajax_progress_type: ''
+  ajax_effect: ''
+  ajax_speed: null
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  page_theme_name: ''
+  form_title: source_entity_webform
+  form_submit_once: true
+  form_open_message: ''
+  form_close_message: ''
+  form_exception_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_disable_remote_addr: false
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_unsaved: true
+  form_disable_back: false
+  form_submit_back: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_disable_inline_errors: false
+  form_required: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_reset: false
+  form_access_denied: default
+  form_access_denied_title: ''
+  form_access_denied_message: ''
+  form_access_denied_attributes: {  }
+  form_file_limit: ''
+  form_attributes: {  }
+  form_method: ''
+  form_action: ''
+  share: false
+  share_node: false
+  share_theme_name: ''
+  share_title: true
+  share_page_body_attributes: {  }
+  submission_label: ''
+  submission_exception_message: ''
+  submission_locked_message: ''
+  submission_log: false
+  submission_excluded_elements: {  }
+  submission_exclude_empty: false
+  submission_exclude_empty_checkbox: false
+  submission_views: {  }
+  submission_views_replace:
+    webform_routes: {  }
+    node_routes: {  }
+  submission_user_columns: {  }
+  submission_user_duplicate: false
+  submission_access_denied: default
+  submission_access_denied_title: ''
+  submission_access_denied_message: ''
+  submission_access_denied_attributes: {  }
+  previous_submission_message: ''
+  previous_submissions_message: ''
+  autofill: true
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_progress_link: false
+  wizard_progress_states: false
+  wizard_start_label: ''
+  wizard_preview_link: false
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_auto_forward: true
+  wizard_auto_forward_hide_next_button: false
+  wizard_keyboard: true
+  wizard_track: ''
+  wizard_prev_button_label: ''
+  wizard_next_button_label: ''
+  wizard_toggle: false
+  wizard_toggle_show_label: ''
+  wizard_toggle_hide_label: ''
+  wizard_page_type: container
+  wizard_page_title_tag: h2
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  preview_exclude_empty_checkbox: false
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  draft_pending_single_message: ''
+  draft_pending_multiple_message: ''
+  confirmation_type: page
+  confirmation_url: ''
+  confirmation_title: 'Registration to Test Forum 2019'
+  confirmation_message: "<strong>The registration was successful!</strong><br />\r\nYou should receive a confirmation email."
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
+  confirmation_update: true
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_total_unique: false
+  limit_user: 1
+  limit_user_interval: 604800
+  limit_user_message: ''
+  limit_user_unique: false
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  results_customize: false
+  token_view: false
+  token_update: false
+  token_delete: false
+  serial_disabled: false
+access:
+  create:
+    roles:
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles:
+      - conference_manager
+      - ntf_executive
+      - webmaster
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles:
+      - webmaster
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles:
+      - webmaster
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles:
+      - webmaster
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles:
+      - authenticated
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles:
+      - webmaster
+    users: {  }
+    permissions: {  }
+  test:
+    roles:
+      - webmaster
+    users: {  }
+    permissions: {  }
+  configuration:
+    roles:
+      - webmaster
+    users: {  }
+    permissions: {  }
+handlers:
+  confirmation_email:
+    id: email
+    handler_id: confirmation_email
+    label: 'Confirmation Email'
+    notes: ''
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: '[webform_submission:values:email:raw]'
+      to_options: {  }
+      bcc_mail: jytte.schneider@nordictestforum.org
+      bcc_options: {  }
+      cc_mail: info@nordictestforum.org
+      cc_options: {  }
+      from_mail: committee@nordictestforum.org
+      from_options: {  }
+      from_name: 'Nordic Test Forum Committee'
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
+      subject: '[webform:title]'
+      body: _default
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      exclude_empty_checkbox: false
+      exclude_attachments: false
+      html: true
+      attachments: false
+      twig: false
+      theme_name: ''
+      parameters: {  }
+      debug: false
+variants: {  }

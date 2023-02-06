@@ -1,0 +1,14 @@
+uuid: fdaa2fae-2d78-4ac0-bdd7-510b6352144d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf_executive
+  module:
+    - user
+id: user_add_role_action.ntf_executive
+label: 'Add the NTF executive role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ntf_executive

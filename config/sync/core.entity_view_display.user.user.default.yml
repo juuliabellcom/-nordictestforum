@@ -1,0 +1,99 @@
+uuid: e5050205-1f77-4d99-9c6a-e243a5f2cb8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.mass_contact_opt_out
+    - field.field.user.user.profile_address
+    - field.field.user.user.profile_city
+    - field.field.user.user.profile_company
+    - field.field.user.user.profile_country
+    - field.field.user.user.profile_fax
+    - field.field.user.user.profile_fullname
+    - field.field.user.user.profile_index
+    - field.field.user.user.profile_phone
+    - field.field.user.user.user_picture
+  module:
+    - image
+    - options
+    - text
+    - user
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  member_for:
+    weight: 5
+    region: content
+  profile_address:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  profile_city:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  profile_company:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  profile_country:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  profile_fax:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  profile_fullname:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  profile_index:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  profile_phone:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  user_picture:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 6
+    region: content
+hidden:
+  mass_contact_opt_out: true

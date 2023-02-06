@@ -1,0 +1,21 @@
+uuid: ae1a98db-d837-42bf-add3-5f810175cfb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_phone
+  module:
+    - text
+    - user
+id: user.user.profile_phone
+field_name: profile_phone
+entity_type: user
+bundle: user
+label: Phone
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

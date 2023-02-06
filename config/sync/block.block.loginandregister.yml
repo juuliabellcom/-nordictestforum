@@ -1,0 +1,33 @@
+uuid: 6eace1fd-1374-4e1e-b8ab-38ea0227d181
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:88dbe4da-95f8-4bc4-a920-407ae431132f'
+  module:
+    - block_content
+    - user
+  theme:
+    - showcase_lite
+id: loginandregister
+theme: showcase_lite
+region: header_top_highlighted_second
+weight: -9
+provider: null
+plugin: 'block_content:88dbe4da-95f8-4bc4-a920-407ae431132f'
+settings:
+  id: 'block_content:88dbe4da-95f8-4bc4-a920-407ae431132f'
+  label: 'Login and register'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous

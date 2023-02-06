@@ -1,0 +1,21 @@
+uuid: f3933ed4-8c28-41a4-9b55-d637f52d3be1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_address
+  module:
+    - text
+    - user
+id: user.user.profile_address
+field_name: profile_address
+entity_type: user
+bundle: user
+label: 'Postal Address'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,36 @@
+uuid: 3f803fb8-0658-4f8f-bcd8-305e12ade6b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page
+    - node.type.paper
+    - node.type.review
+    - node.type.story
+  module:
+    - contact
+    - node
+    - search
+    - system
+id: reviewer
+label: reviewer
+weight: 3
+is_admin: null
+permissions:
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'change own username'
+  - 'create page content'
+  - 'create paper content'
+  - 'create review content'
+  - 'create story content'
+  - 'edit any page content'
+  - 'edit any paper content'
+  - 'edit any review content'
+  - 'edit any story content'
+  - 'edit own page content'
+  - 'edit own paper content'
+  - 'edit own review content'
+  - 'edit own story content'
+  - 'search content'
+  - 'use advanced search'

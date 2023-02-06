@@ -1,0 +1,12 @@
+uuid: d450ad8c-7260-4c33-ab40-5fc432a96b4f
+langcode: en
+status: true
+dependencies: {  }
+id: ntf_user_inquiry
+label: 'NTF User Inquiry'
+recipients:
+  - info@nordictestforum.org
+reply: ''
+weight: 9
+message: null
+redirect: null

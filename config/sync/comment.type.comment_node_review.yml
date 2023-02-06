@@ -1,0 +1,8 @@
+uuid: df140fad-865d-4326-a372-a95ccea3270b
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_review
+label: 'Review comment'
+target_entity_type_id: node
+description: null

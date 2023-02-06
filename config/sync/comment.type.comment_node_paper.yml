@@ -1,0 +1,8 @@
+uuid: 98920845-49c8-42eb-b6b3-45fa6f240086
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_paper
+label: 'Paper comment'
+target_entity_type_id: node
+description: null

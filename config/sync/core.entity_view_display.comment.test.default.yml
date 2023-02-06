@@ -1,0 +1,27 @@
+uuid: a3d3c760-5f1e-45d9-9c28-64f55c391483
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.test
+    - field.field.comment.test.comment_body
+  module:
+    - text
+id: comment.test.default
+targetEntityType: comment
+bundle: test
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

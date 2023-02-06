@@ -1,0 +1,22 @@
+uuid: 0d6f0f53-92e7-49d5-a889-27d0b5335d1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.mass_contact
+id: node.mass_contact.status
+field_name: status
+entity_type: node
+bundle: mass_contact
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

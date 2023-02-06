@@ -1,0 +1,22 @@
+uuid: 6ed2e296-5019-4842-8086-b24ab5865436
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.mass_contact
+id: node.mass_contact.sticky
+field_name: sticky
+entity_type: node
+bundle: mass_contact
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,25 @@
+uuid: b072d96d-5a43-4601-9890-bc4b1db76f02
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1e371cb2-19b6-491c-ab5b-b55e26f1c6b5'
+  module:
+    - block_content
+  theme:
+    - showcase_lite
+id: currentforum
+theme: showcase_lite
+region: sidebar_second
+weight: -10
+provider: null
+plugin: 'block_content:1e371cb2-19b6-491c-ab5b-b55e26f1c6b5'
+settings:
+  id: 'block_content:1e371cb2-19b6-491c-ab5b-b55e26f1c6b5'
+  label: 'Current forum'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

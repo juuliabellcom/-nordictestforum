@@ -1,0 +1,14 @@
+uuid: 57314b27-3f2d-4a82-bcb8-7cd9efe4d304
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf2009
+  module:
+    - user
+id: user_remove_role_action.ntf2009
+label: 'Remove the NTF2009 role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ntf2009

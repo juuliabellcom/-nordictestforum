@@ -1,0 +1,21 @@
+uuid: ed0e07e5-9df2-4889-84fa-792ed8ba0021
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_index
+  module:
+    - text
+    - user
+id: user.user.profile_index
+field_name: profile_index
+entity_type: user
+bundle: user
+label: 'Postal Code'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,286 @@
+uuid: caa082d7-d035-484d-9340-cd7c173afd8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - media.type.audio
+    - media.type.file
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+    - node.type.article
+    - node.type.forum
+    - node.type.image
+    - node.type.image_gallery
+    - node.type.mass_contact
+    - node.type.page
+    - node.type.paper
+    - node.type.review
+    - node.type.story
+    - taxonomy.vocabulary.forums
+    - taxonomy.vocabulary.image_galleries
+    - taxonomy.vocabulary.newsletter
+    - taxonomy.vocabulary.tags
+  module:
+    - block
+    - block_content
+    - captcha
+    - comment
+    - contact
+    - contextual
+    - field_ui
+    - file
+    - filter
+    - forum
+    - image
+    - mass_contact
+    - media
+    - membership
+    - menu_per_role
+    - node
+    - path
+    - pathauto
+    - poll
+    - quickedit
+    - recaptcha
+    - search
+    - shortcut
+    - system
+    - taxonomy
+    - toolbar
+    - update
+    - webform
+id: webmaster
+label: webmaster
+weight: 7
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access any webform configuration'
+  - 'access comments'
+  - 'access content'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access in-place editing'
+  - 'access media overview'
+  - 'access own webform configuration'
+  - 'access poll overview'
+  - 'access polls'
+  - 'access shortcuts'
+  - 'access site in maintenance mode'
+  - 'access site reports'
+  - 'access site-wide contact form'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'access user profiles'
+  - 'access webform overview'
+  - 'access webform submission user'
+  - 'add membership entities'
+  - 'administer CAPTCHA settings'
+  - 'administer block_content fields'
+  - 'administer blocks'
+  - 'administer comment fields'
+  - 'administer comment form display'
+  - 'administer comment types'
+  - 'administer comments'
+  - 'administer contact forms'
+  - 'administer contact_message fields'
+  - 'administer contact_message form display'
+  - 'administer content types'
+  - 'administer display modes'
+  - 'administer filters'
+  - 'administer forums'
+  - 'administer image styles'
+  - 'administer media'
+  - 'administer media display'
+  - 'administer media fields'
+  - 'administer media form display'
+  - 'administer media types'
+  - 'administer membership entities'
+  - 'administer menu'
+  - 'administer menu_per_role'
+  - 'administer modules'
+  - 'administer node display'
+  - 'administer node fields'
+  - 'administer node form display'
+  - 'administer nodes'
+  - 'administer pathauto'
+  - 'administer permissions'
+  - 'administer poll display'
+  - 'administer poll fields'
+  - 'administer poll form display'
+  - 'administer polls'
+  - 'administer recaptcha'
+  - 'administer search'
+  - 'administer shortcuts'
+  - 'administer site configuration'
+  - 'administer taxonomy'
+  - 'administer taxonomy_term display'
+  - 'administer taxonomy_term fields'
+  - 'administer taxonomy_term form display'
+  - 'administer url aliases'
+  - 'administer user fields'
+  - 'administer users'
+  - 'administer webform'
+  - 'administer webform element access'
+  - 'administer webform submission'
+  - 'bypass menu_per_role access admin'
+  - 'bypass menu_per_role access front'
+  - 'bypass node access'
+  - 'change own username'
+  - 'create article content'
+  - 'create audio media'
+  - 'create file media'
+  - 'create forum content'
+  - 'create image content'
+  - 'create image media'
+  - 'create image_gallery content'
+  - 'create mass_contact content'
+  - 'create media'
+  - 'create page content'
+  - 'create paper content'
+  - 'create polls'
+  - 'create remote_video media'
+  - 'create review content'
+  - 'create story content'
+  - 'create terms in forums'
+  - 'create terms in image_galleries'
+  - 'create terms in newsletter'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'create video media'
+  - 'create webform'
+  - 'customize shortcut links'
+  - 'delete any article content'
+  - 'delete any audio media'
+  - 'delete any file media'
+  - 'delete any forum content'
+  - 'delete any image content'
+  - 'delete any image media'
+  - 'delete any image_gallery content'
+  - 'delete any mass_contact content'
+  - 'delete any media'
+  - 'delete any page content'
+  - 'delete any paper content'
+  - 'delete any remote_video media'
+  - 'delete any review content'
+  - 'delete any story content'
+  - 'delete any video media'
+  - 'delete any webform'
+  - 'delete any webform submission'
+  - 'delete article revisions'
+  - 'delete forum revisions'
+  - 'delete image revisions'
+  - 'delete image_gallery revisions'
+  - 'delete mass_contact revisions'
+  - 'delete media'
+  - 'delete membership entities'
+  - 'delete own article content'
+  - 'delete own audio media'
+  - 'delete own file media'
+  - 'delete own forum content'
+  - 'delete own image content'
+  - 'delete own image media'
+  - 'delete own image_gallery content'
+  - 'delete own mass_contact content'
+  - 'delete own page content'
+  - 'delete own remote_video media'
+  - 'delete own review content'
+  - 'delete own story content'
+  - 'delete own video media'
+  - 'delete page revisions'
+  - 'delete paper revisions'
+  - 'delete review revisions'
+  - 'delete story revisions'
+  - 'delete terms in forums'
+  - 'delete terms in image_galleries'
+  - 'delete terms in newsletter'
+  - 'delete terms in tags'
+  - 'edit any article content'
+  - 'edit any audio media'
+  - 'edit any file media'
+  - 'edit any forum content'
+  - 'edit any image content'
+  - 'edit any image media'
+  - 'edit any image_gallery content'
+  - 'edit any mass_contact content'
+  - 'edit any page content'
+  - 'edit any paper content'
+  - 'edit any remote_video media'
+  - 'edit any review content'
+  - 'edit any story content'
+  - 'edit any video media'
+  - 'edit any webform'
+  - 'edit any webform submission'
+  - 'edit membership entities'
+  - 'edit own article content'
+  - 'edit own audio media'
+  - 'edit own comments'
+  - 'edit own file media'
+  - 'edit own forum content'
+  - 'edit own image content'
+  - 'edit own image media'
+  - 'edit own image_gallery content'
+  - 'edit own mass_contact content'
+  - 'edit own page content'
+  - 'edit own paper content'
+  - 'edit own polls'
+  - 'edit own remote_video media'
+  - 'edit own review content'
+  - 'edit own story content'
+  - 'edit own video media'
+  - 'edit own webform'
+  - 'edit own webform submission'
+  - 'edit terms in forums'
+  - 'edit terms in image_galleries'
+  - 'edit terms in newsletter'
+  - 'edit terms in tags'
+  - 'mass contact administer'
+  - 'mass contact include attachments'
+  - 'mass contact override text format'
+  - 'mass contact send messages'
+  - 'mass contact send to users in the committee category'
+  - 'mass contact send to users in the ntf category'
+  - 'mass contact view archived messages'
+  - 'post comments'
+  - 'revert article revisions'
+  - 'revert forum revisions'
+  - 'revert image revisions'
+  - 'revert image_gallery revisions'
+  - 'revert mass_contact revisions'
+  - 'revert page revisions'
+  - 'revert paper revisions'
+  - 'revert review revisions'
+  - 'revert story revisions'
+  - 'search content'
+  - 'skip CAPTCHA'
+  - 'skip comment approval'
+  - 'switch shortcut sets'
+  - 'update any media'
+  - 'update media'
+  - 'use advanced search'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view any webform submission'
+  - 'view article revisions'
+  - 'view forum revisions'
+  - 'view image revisions'
+  - 'view image_gallery revisions'
+  - 'view mass_contact revisions'
+  - 'view own unpublished media'
+  - 'view page revisions'
+  - 'view paper revisions'
+  - 'view poll results'
+  - 'view published membership entities'
+  - 'view review revisions'
+  - 'view story revisions'
+  - 'view the administration theme'
+  - 'view update notifications'

@@ -1,0 +1,14 @@
+uuid: c20928f0-0feb-4657-81a7-78465d1f8837
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf2021
+  module:
+    - user
+id: user_add_role_action.ntf2021
+label: 'Add the NTF2021 role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ntf2021

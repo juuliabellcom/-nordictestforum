@@ -1,0 +1,25 @@
+uuid: bb60a989-8bb3-4356-8e81-1993a077a9b2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c920881c-0034-4ee4-8ecf-b427da831270'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: exhibitors
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:c920881c-0034-4ee4-8ecf-b427da831270'
+settings:
+  id: 'block_content:c920881c-0034-4ee4-8ecf-b427da831270'
+  label: Exhibitors
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

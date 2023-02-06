@@ -1,0 +1,14 @@
+uuid: c57f07da-7b79-4def-93b9-5d34c441fa2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf2023
+  module:
+    - user
+id: user_add_role_action.ntf2023
+label: 'Add the NTF2023 role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ntf2023

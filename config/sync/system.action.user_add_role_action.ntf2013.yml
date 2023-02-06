@@ -1,0 +1,14 @@
+uuid: 08e4e293-6d06-43b0-b4a1-dc20d3609bb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf2013
+  module:
+    - user
+id: user_add_role_action.ntf2013
+label: 'Add the NTF2013 role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ntf2013

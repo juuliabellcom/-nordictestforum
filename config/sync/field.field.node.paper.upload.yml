@@ -1,0 +1,27 @@
+uuid: d7c8625d-801a-4b0a-acc2-6cc9efa124c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.upload
+    - node.type.paper
+  module:
+    - file
+id: node.paper.upload
+field_name: upload
+entity_type: node
+bundle: paper
+label: upload
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt doc xls pdf ppt pps odt ods odp zip rar'
+  max_filesize: 8MB
+  description_field: true
+field_type: file

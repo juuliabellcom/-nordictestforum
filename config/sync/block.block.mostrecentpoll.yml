@@ -1,0 +1,20 @@
+uuid: 8b13582f-8d95-4f18-8c76-f19247054b26
+langcode: en
+status: true
+dependencies:
+  module:
+    - poll
+  theme:
+    - bartik
+id: mostrecentpoll
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: poll_recent_block
+settings:
+  id: poll_recent_block
+  label: 'Your preferred NTF location is'
+  label_display: visible
+  provider: poll
+visibility: {  }

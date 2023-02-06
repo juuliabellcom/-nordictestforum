@@ -1,0 +1,9 @@
+uuid: 75492b91-d672-4f78-8344-38691116fe29
+langcode: en
+status: true
+dependencies: {  }
+id: ntf2012
+label: NTF2012
+weight: 12
+is_admin: null
+permissions: {  }

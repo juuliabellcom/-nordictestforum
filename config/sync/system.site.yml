@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+langcode: en
+uuid: 0fb0171b-d96e-45f6-8c02-2da939161f4f
+name: 'Nordic Test Forum'
+mail: info@nordictestforum.org
+slogan: ''
+page:
+  403: /
+  404: /
+  front: /node/4
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

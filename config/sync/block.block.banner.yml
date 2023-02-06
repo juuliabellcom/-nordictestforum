@@ -1,0 +1,31 @@
+uuid: c68e2495-9ed0-47ec-8b29-29c64f9a214e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:banner:adf2414b-c9d7-4850-9bd4-95bab12ae251'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcase_lite
+id: banner
+theme: showcase_lite
+region: banner
+weight: -11
+provider: null
+plugin: 'block_content:adf2414b-c9d7-4850-9bd4-95bab12ae251'
+settings:
+  id: 'block_content:adf2414b-c9d7-4850-9bd4-95bab12ae251'
+  label: banner
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "<front>\r\n/agm\r\n/about\r\n/contact\r\n/past\r\n/2021"

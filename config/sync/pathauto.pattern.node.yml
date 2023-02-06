@@ -1,0 +1,24 @@
+uuid: 59b2aaa0-c38e-46a1-9623-e4ab38d65246
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node
+label: node
+type: 'canonical_entities:node'
+pattern: '[node:menu-link:parent:url:path]/[node:menu-link]'
+selection_criteria:
+  b7c43209-6f23-4b5c-a998-9220b30e0726:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: b7c43209-6f23-4b5c-a998-9220b30e0726
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+      page: page
+      paper: paper
+selection_logic: and
+weight: -5
+relationships: {  }

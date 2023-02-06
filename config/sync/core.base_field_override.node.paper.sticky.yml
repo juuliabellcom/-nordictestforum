@@ -1,0 +1,22 @@
+uuid: f35d8def-3b66-43d5-bd88-140bb0871856
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.paper
+id: node.paper.sticky
+field_name: sticky
+entity_type: node
+bundle: paper
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

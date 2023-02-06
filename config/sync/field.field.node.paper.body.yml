@@ -1,0 +1,23 @@
+uuid: 807a3fb8-ab92-4f70-8bcd-e00d021b989a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.paper
+  module:
+    - text
+id: node.paper.body
+field_name: body
+entity_type: node
+bundle: paper
+label: Abstract
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

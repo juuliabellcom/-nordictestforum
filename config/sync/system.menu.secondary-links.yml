@@ -1,0 +1,8 @@
+uuid: 6f17d796-4558-469a-96a8-dd57364ccc74
+langcode: en
+status: true
+dependencies: {  }
+id: secondary-links
+label: 'Secondary links'
+description: obsolete
+locked: false

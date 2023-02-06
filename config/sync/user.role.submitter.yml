@@ -1,0 +1,22 @@
+uuid: 8cd0654f-2e96-4b21-bee9-9d5d51005bbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.paper
+  module:
+    - contact
+    - node
+    - search
+    - system
+id: submitter
+label: submitter
+weight: 5
+is_admin: null
+permissions:
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'change own username'
+  - 'create paper content'
+  - 'search content'
+  - 'use advanced search'

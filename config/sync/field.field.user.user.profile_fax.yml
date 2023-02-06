@@ -1,0 +1,21 @@
+uuid: 3a393cca-4e80-475a-95ab-29b94d1a9344
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_fax
+  module:
+    - text
+    - user
+id: user.user.profile_fax
+field_name: profile_fax
+entity_type: user
+bundle: user
+label: Fax
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

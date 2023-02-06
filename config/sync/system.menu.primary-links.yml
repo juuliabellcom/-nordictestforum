@@ -1,0 +1,8 @@
+uuid: 742b11f3-738f-4d4b-92ae-5a47a0dbbd51
+langcode: en
+status: true
+dependencies: {  }
+id: primary-links
+label: 'Primary links'
+description: obsolete
+locked: false

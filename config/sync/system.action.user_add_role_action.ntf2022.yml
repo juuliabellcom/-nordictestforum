@@ -1,0 +1,14 @@
+uuid: bfa82085-36f1-4c44-a2a2-0471d275078f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf2022
+  module:
+    - user
+id: user_add_role_action.ntf2022
+label: 'Add the NTF2022 role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ntf2022

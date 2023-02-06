@@ -1,0 +1,18 @@
+uuid: b8641cbf-4dea-41b1-b77c-35f704aac3e6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - navigation
+    parent: 'navigation:'
+name: 'Forum topic'
+type: forum
+description: 'Create a new topic for discussion in the forums.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

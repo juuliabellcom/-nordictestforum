@@ -1,0 +1,30 @@
+uuid: da3e2a87-2a4b-4e02-b741-578dda1b3f3f
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - node
+  theme:
+    - showcase_lite
+_core:
+  default_config_hash: j3i6hwOJc5B5H3F4WVhGCSTFmQNk7EqApIguw3b4mXc
+id: showcase_lite_page_title
+theme: showcase_lite
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      image_gallery: image_gallery

@@ -1,0 +1,14 @@
+uuid: d85aefb2-841c-4716-90cc-03f596834f86
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.conference_manager
+  module:
+    - user
+id: user_remove_role_action.conference_manager
+label: 'Remove the conference manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: conference_manager

@@ -1,0 +1,14 @@
+uuid: 0ed62649-538d-42c6-89ec-de2278b9dae7
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf2016
+  module:
+    - user
+id: user_remove_role_action.ntf2016
+label: 'Remove the NTF2016 role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ntf2016

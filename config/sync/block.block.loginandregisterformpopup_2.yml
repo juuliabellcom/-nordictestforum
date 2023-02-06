@@ -1,0 +1,20 @@
+uuid: c3d7fac7-51b3-47bf-996b-d14b9b83b2d7
+langcode: en
+status: false
+dependencies:
+  module:
+    - login_popup
+  theme:
+    - showcase_lite
+id: loginandregisterformpopup_2
+theme: showcase_lite
+region: header_top_highlighted_second
+weight: -8
+provider: null
+plugin: login_register_form_popup
+settings:
+  id: login_register_form_popup
+  label: 'Login And Register Form popup'
+  label_display: '0'
+  provider: login_popup
+visibility: {  }

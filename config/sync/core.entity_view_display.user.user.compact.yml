@@ -1,0 +1,49 @@
+uuid: e626108f-da9e-464f-8199-3665a5150ed2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.compact
+    - field.field.user.user.mass_contact_opt_out
+    - field.field.user.user.profile_address
+    - field.field.user.user.profile_city
+    - field.field.user.user.profile_company
+    - field.field.user.user.profile_country
+    - field.field.user.user.profile_fax
+    - field.field.user.user.profile_fullname
+    - field.field.user.user.profile_index
+    - field.field.user.user.profile_phone
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: '-cLsS3M3JycipXQt9rEb81_HxKneReoGuRh8ijcOPXs'
+id: user.user.compact
+targetEntityType: user
+bundle: user
+mode: compact
+content:
+  user_picture:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  mass_contact_opt_out: true
+  member_for: true
+  profile_address: true
+  profile_city: true
+  profile_company: true
+  profile_country: true
+  profile_fax: true
+  profile_fullname: true
+  profile_index: true
+  profile_phone: true

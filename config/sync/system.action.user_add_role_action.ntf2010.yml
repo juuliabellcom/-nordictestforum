@@ -1,0 +1,14 @@
+uuid: 7a65faed-445f-48ab-afb7-2654d6161747
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ntf2010
+  module:
+    - user
+id: user_add_role_action.ntf2010
+label: 'Add the NTF2010 role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ntf2010

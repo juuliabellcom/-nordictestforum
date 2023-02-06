@@ -1,0 +1,9 @@
+uuid: 19121654-e572-4727-a759-23884b0f1b05
+langcode: en
+status: true
+dependencies: {  }
+id: ntf2010
+label: NTF2010
+weight: 10
+is_admin: null
+permissions: {  }

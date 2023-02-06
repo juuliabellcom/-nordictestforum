@@ -1,0 +1,18 @@
+uuid: 1ce0bd22-2072-44d5-b2cb-547020d8b057
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - navigation
+    parent: 'navigation:'
+name: Review
+type: review
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

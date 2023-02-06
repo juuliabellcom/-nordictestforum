@@ -1,0 +1,12 @@
+uuid: a05fb429-dd82-4c42-a636-fc5d16f2b9b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nobody
+id: block_content.nobody.default
+targetEntityType: block_content
+bundle: nobody
+mode: default
+content: {  }
+hidden: {  }

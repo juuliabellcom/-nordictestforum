@@ -1,0 +1,25 @@
+uuid: f5ce822d-3bdb-4bbb-af8e-4dfcc9f56aca
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c920881c-0034-4ee4-8ecf-b427da831270'
+  module:
+    - block_content
+  theme:
+    - showcase_lite
+id: exhibitors_2
+theme: showcase_lite
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'block_content:c920881c-0034-4ee4-8ecf-b427da831270'
+settings:
+  id: 'block_content:c920881c-0034-4ee4-8ecf-b427da831270'
+  label: Exhibitors
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
