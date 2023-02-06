@@ -54,6 +54,7 @@
         "drupal/token": "^1.11",
         "drupal/views_data_export": "^1.2",
         "drupal/webform": "^6.1",
+        "drush/drush": "^11.4",
         "jackmoore/colorbox": "^1.6",
         "wikimedia/composer-merge-plugin": "^2.0"
     },
