@@ -16,7 +16,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/algolia.places"
+            "install-path": "../../public_html/libraries/algolia.places"
         },
         {
             "name": "asm89/stack-cors",
@@ -93,7 +93,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/choices"
+            "install-path": "../../public_html/libraries/choices"
         },
         {
             "name": "ckeditor/autogrow",
@@ -111,7 +111,7 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "install-path": "../../web/libraries/ckeditor.autogrow"
+            "install-path": "../../public_html/libraries/ckeditor.autogrow"
         },
         {
             "name": "ckeditor/codemirror",
@@ -129,7 +129,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/ckeditor.codemirror"
+            "install-path": "../../public_html/libraries/ckeditor.codemirror"
         },
         {
             "name": "ckeditor/fakeobjects",
@@ -147,7 +147,7 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "install-path": "../../web/libraries/ckeditor.fakeobjects"
+            "install-path": "../../public_html/libraries/ckeditor.fakeobjects"
         },
         {
             "name": "ckeditor/image",
@@ -165,7 +165,7 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "install-path": "../../web/libraries/ckeditor.image"
+            "install-path": "../../public_html/libraries/ckeditor.image"
         },
         {
             "name": "ckeditor/link",
@@ -183,7 +183,7 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "install-path": "../../web/libraries/ckeditor.link"
+            "install-path": "../../public_html/libraries/ckeditor.link"
         },
         {
             "name": "codemirror/codemirror",
@@ -201,7 +201,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/codemirror"
+            "install-path": "../../public_html/libraries/codemirror"
         },
         {
             "name": "composer/installers",
@@ -739,7 +739,7 @@
                 "source": "http://cgit.drupalcode.org/allowed_formats",
                 "issues": "https://www.drupal.org/project/issues/allowed_formats"
             },
-            "install-path": "../../web/modules/contrib/allowed_formats"
+            "install-path": "../../public_html/modules/contrib/allowed_formats"
         },
         {
             "name": "drupal/captcha",
@@ -826,7 +826,7 @@
                 "source": "https://git.drupalcode.org/project/captcha",
                 "issues": "https://www.drupal.org/project/issues/captcha"
             },
-            "install-path": "../../web/modules/contrib/captcha"
+            "install-path": "../../public_html/modules/contrib/captcha"
         },
         {
             "name": "drupal/colorbox",
@@ -896,7 +896,7 @@
                 "source": "https://git.drupalcode.org/project/colorbox",
                 "issues": "https://www.drupal.org/project/issues/colorbox"
             },
-            "install-path": "../../web/modules/contrib/colorbox"
+            "install-path": "../../public_html/modules/contrib/colorbox"
         },
         {
             "name": "drupal/core",
@@ -1066,7 +1066,7 @@
             "support": {
                 "source": "https://github.com/drupal/core/tree/9.5.3"
             },
-            "install-path": "../../web/core"
+            "install-path": "../../public_html/core"
         },
         {
             "name": "drupal/core-composer-scaffold",
@@ -1304,7 +1304,7 @@
                 "source": "http://cgit.drupalcode.org/csv_serialization",
                 "issues": "https://www.drupal.org/project/issues/csv_serialization"
             },
-            "install-path": "../../web/modules/contrib/csv_serialization"
+            "install-path": "../../public_html/modules/contrib/csv_serialization"
         },
         {
             "name": "drupal/ctools",
@@ -1400,7 +1400,7 @@
                 "source": "https://git.drupalcode.org/project/ctools",
                 "issues": "https://www.drupal.org/project/issues/ctools"
             },
-            "install-path": "../../web/modules/contrib/ctools"
+            "install-path": "../../public_html/modules/contrib/ctools"
         },
         {
             "name": "drupal/entity",
@@ -1472,7 +1472,7 @@
                 "source": "https://git.drupalcode.org/project/entity",
                 "issues": "https://www.drupal.org/project/issues/entity"
             },
-            "install-path": "../../web/modules/contrib/entity"
+            "install-path": "../../public_html/modules/contrib/entity"
         },
         {
             "name": "drupal/login_popup",
@@ -1531,7 +1531,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/login_popup"
             },
-            "install-path": "../../web/modules/contrib/login_popup"
+            "install-path": "../../public_html/modules/contrib/login_popup"
         },
         {
             "name": "drupal/ludwig",
@@ -1586,7 +1586,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/ludwig"
             },
-            "install-path": "../../web/modules/contrib/ludwig"
+            "install-path": "../../public_html/modules/contrib/ludwig"
         },
         {
             "name": "drupal/mass_contact",
@@ -1648,7 +1648,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/mass_contact"
             },
-            "install-path": "../../web/modules/contrib/mass_contact"
+            "install-path": "../../public_html/modules/contrib/mass_contact"
         },
         {
             "name": "drupal/membership",
@@ -1710,7 +1710,7 @@
                 "source": "https://git.drupalcode.org/project/entity",
                 "issues": "https://www.drupal.org/project/issues/membership?status=All&categories=All"
             },
-            "install-path": "../../web/modules/contrib/membership"
+            "install-path": "../../public_html/modules/contrib/membership"
         },
         {
             "name": "drupal/menu_block",
@@ -1777,7 +1777,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/menu_block"
             },
-            "install-path": "../../web/modules/contrib/menu_block"
+            "install-path": "../../public_html/modules/contrib/menu_block"
         },
         {
             "name": "drupal/menu_per_role",
@@ -1840,7 +1840,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/menu_per_role"
             },
-            "install-path": "../../web/modules/contrib/menu_per_role"
+            "install-path": "../../public_html/modules/contrib/menu_per_role"
         },
         {
             "name": "drupal/pathauto",
@@ -1911,7 +1911,7 @@
                 "issues": "https://www.drupal.org/project/issues/pathauto",
                 "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
             },
-            "install-path": "../../web/modules/contrib/pathauto"
+            "install-path": "../../public_html/modules/contrib/pathauto"
         },
         {
             "name": "drupal/poll",
@@ -1966,7 +1966,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/poll"
             },
-            "install-path": "../../web/modules/contrib/poll"
+            "install-path": "../../public_html/modules/contrib/poll"
         },
         {
             "name": "drupal/quick_node_clone",
@@ -2023,7 +2023,7 @@
                 "source": "https://git.drupalcode.org/project/quick_node_clone",
                 "issues": "https://www.drupal.org/project/issues/quick_node_clone"
             },
-            "install-path": "../../web/modules/contrib/quick_node_clone"
+            "install-path": "../../public_html/modules/contrib/quick_node_clone"
         },
         {
             "name": "drupal/recaptcha",
@@ -2109,7 +2109,7 @@
                 "source": "https://git.drupal.org/project/recaptcha.git",
                 "issues": "https://www.drupal.org/project/issues/recaptcha"
             },
-            "install-path": "../../web/modules/contrib/recaptcha"
+            "install-path": "../../public_html/modules/contrib/recaptcha"
         },
         {
             "name": "drupal/showcase_lite",
@@ -2181,7 +2181,7 @@
                 "source": "https://git.drupalcode.org/project/showcase_lite",
                 "issues": "https://www.drupal.org/project/issues/showcase_lite"
             },
-            "install-path": "../../web/themes/contrib/showcase_lite"
+            "install-path": "../../public_html/themes/contrib/showcase_lite"
         },
         {
             "name": "drupal/smtp",
@@ -2264,7 +2264,7 @@
                 "source": "https://git.drupalcode.org/project/smtp",
                 "issues": "https://www.drupal.org/project/issues/smtp"
             },
-            "install-path": "../../web/modules/contrib/smtp"
+            "install-path": "../../public_html/modules/contrib/smtp"
         },
         {
             "name": "drupal/state_machine",
@@ -2364,7 +2364,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/state_machine"
             },
-            "install-path": "../../web/modules/contrib/state_machine"
+            "install-path": "../../public_html/modules/contrib/state_machine"
         },
         {
             "name": "drupal/superfish",
@@ -2414,7 +2414,7 @@
                 "source": "https://cgit.drupalcode.org/superfish",
                 "issues": "https://www.drupal.org/project/superfish"
             },
-            "install-path": "../../web/modules/contrib/superfish"
+            "install-path": "../../public_html/modules/contrib/superfish"
         },
         {
             "name": "drupal/token",
@@ -2486,7 +2486,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/token"
             },
-            "install-path": "../../web/modules/contrib/token"
+            "install-path": "../../public_html/modules/contrib/token"
         },
         {
             "name": "drupal/views_data_export",
@@ -2558,7 +2558,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/views_data_export"
             },
-            "install-path": "../../web/modules/contrib/views_data_export"
+            "install-path": "../../public_html/modules/contrib/views_data_export"
         },
         {
             "name": "drupal/webform",
@@ -2671,7 +2671,7 @@
                 "docs": "https://www.drupal.org/docs/8/modules/webform",
                 "forum": "https://drupal.stackexchange.com/questions/tagged/webform"
             },
-            "install-path": "../../web/modules/contrib/webform"
+            "install-path": "../../public_html/modules/contrib/webform"
         },
         {
             "name": "egulias/email-validator",
@@ -3126,7 +3126,7 @@
             },
             "type": "drupal-library",
             "installation-source": "dist",
-            "install-path": "../../web/libraries/colorbox"
+            "install-path": "../../public_html/libraries/colorbox"
         },
         {
             "name": "jquery/chosen",
@@ -3144,7 +3144,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/jquery.chosen"
+            "install-path": "../../public_html/libraries/jquery.chosen"
         },
         {
             "name": "jquery/geocomplete",
@@ -3162,7 +3162,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/jquery.geocomplete"
+            "install-path": "../../public_html/libraries/jquery.geocomplete"
         },
         {
             "name": "jquery/hotkeys",
@@ -3180,7 +3180,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/jquery.hotkeys"
+            "install-path": "../../public_html/libraries/jquery.hotkeys"
         },
         {
             "name": "jquery/icheck",
@@ -3198,7 +3198,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/jquery.icheck"
+            "install-path": "../../public_html/libraries/jquery.icheck"
         },
         {
             "name": "jquery/image-picker",
@@ -3216,7 +3216,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/jquery.image-picker"
+            "install-path": "../../public_html/libraries/jquery.image-picker"
         },
         {
             "name": "jquery/inputmask",
@@ -3234,7 +3234,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/jquery.inputmask"
+            "install-path": "../../public_html/libraries/jquery.inputmask"
         },
         {
             "name": "jquery/intl-tel-input",
@@ -3252,7 +3252,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/jquery.intl-tel-input"
+            "install-path": "../../public_html/libraries/jquery.intl-tel-input"
         },
         {
             "name": "jquery/rateit",
@@ -3270,7 +3270,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/jquery.rateit"
+            "install-path": "../../public_html/libraries/jquery.rateit"
         },
         {
             "name": "jquery/select2",
@@ -3288,7 +3288,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/jquery.select2"
+            "install-path": "../../public_html/libraries/jquery.select2"
         },
         {
             "name": "jquery/textcounter",
@@ -3306,7 +3306,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/jquery.textcounter"
+            "install-path": "../../public_html/libraries/jquery.textcounter"
         },
         {
             "name": "jquery/timepicker",
@@ -3324,7 +3324,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/jquery.timepicker"
+            "install-path": "../../public_html/libraries/jquery.timepicker"
         },
         {
             "name": "jquery/toggles",
@@ -3342,7 +3342,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/jquery.toggles"
+            "install-path": "../../public_html/libraries/jquery.toggles"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -3843,7 +3843,7 @@
             "support": {
                 "source": "https://github.com/mehrpadin/Superfish-for-Drupal/tree/2.x"
             },
-            "install-path": "../../web/libraries/superfish"
+            "install-path": "../../public_html/libraries/superfish"
         },
         {
             "name": "pear/archive_tar",
@@ -4194,7 +4194,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/progress-tracker"
+            "install-path": "../../public_html/libraries/progress-tracker"
         },
         {
             "name": "psr/cache",
@@ -4529,7 +4529,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/signature_pad"
+            "install-path": "../../public_html/libraries/signature_pad"
         },
         {
             "name": "stack/builder",
@@ -4604,7 +4604,7 @@
             "license": [
                 "BSD-2-Clause"
             ],
-            "install-path": "../../web/libraries/svg-pan-zoom"
+            "install-path": "../../public_html/libraries/svg-pan-zoom"
         },
         {
             "name": "symfony-cmf/routing",
@@ -7157,7 +7157,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/tabby"
+            "install-path": "../../public_html/libraries/tabby"
         },
         {
             "name": "tippyjs/5.x",
@@ -7175,7 +7175,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/tippyjs/5.x"
+            "install-path": "../../public_html/libraries/tippyjs/5.x"
         },
         {
             "name": "tippyjs/6.x",
@@ -7193,7 +7193,7 @@
             "license": [
                 "MIT"
             ],
-            "install-path": "../../web/libraries/tippyjs/6.x"
+            "install-path": "../../public_html/libraries/tippyjs/6.x"
         },
         {
             "name": "twig/twig",
